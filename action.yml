@@ -1,6 +1,6 @@
-name: Actions Ecosystem Action Get Latest Tag
+name: get-latest-tag-force
 description: Get a latest Git tag.
-author: Actions Ecosystem
+author: novak-as, forked from Actions Ecosystem 
 inputs:
   semver_only:
     description: Whether gets only a tag in the shape of semver. `v` prefix is accepted for tag names.
