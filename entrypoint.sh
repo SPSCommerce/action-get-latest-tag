@@ -51,4 +51,5 @@ elif [ "${latest_tag}" = '' ] && [ "${INPUT_WITH_INITIAL_VERSION}" = 'true' ]; t
   latest_tag="${INPUT_INITIAL_VERSION}"
 fi
 
+echo "${latest_tag} got chosen as a latest version"
 echo "::set-output name=tag::${latest_tag}" 
