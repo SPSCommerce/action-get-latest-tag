@@ -38,7 +38,7 @@ if [ "${latest_tag}" != '' ]; then
     for i in "${assigned_tags[@]}"
     do
       echo "check $i"
-      result=$(source /semver2.sh $latest_tag $i)
+      result=$(source /semver.sh $latest_tag $i)
 
       if [ $result = -1 ]; then
         echo "$i is the latest tag now"
